@@ -1,5 +1,5 @@
 
-// <uniquifier>: Use a unique and descriptive class name
+
 // <weight>: Use a value from 100 to 900
 
 .exo-2-md_font {
@@ -9,8 +9,18 @@
   font-style: normal;
 }
 
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .navbar {
 	background-color: red;
+}
+
+.navbar span{
+	color: #ffbb00; 
 }
 
 .bannerPpal {
@@ -18,9 +28,30 @@
 }
 
 .leyendaBannerPpal {
-	color: white;
+	color: #ffdd80;
 	text-align: center;
 }
+
+.landingSeccion-1 {
+	color: #777777;
+	text-align: center; 
+}
+
+.landingSeccion-1 span{
+	color: #ffbb00; 
+}
+
+.footerSection {
+	background-color: #666666;
+	font-weight: 100;
+	font-size: 10px;
+}
+
+.footerSection p{
+	font-weight: 700;
+	font-style: bold;
+}
+
 
 
 
