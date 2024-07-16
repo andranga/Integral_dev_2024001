@@ -37,15 +37,11 @@
 	text-align: center; 
 }
 
-.landingSeccion-1 span{
-	color: #ffbb00; 
+.landingSeccion-2, .landingSeccion-3  {
+	color: #777777;
 }
 
-.landingSeccion-2 {
-	color: #777777; 
-}
-
-.landingSeccion-2 span{
+.landingSeccion-1 span, .landingSeccion-2 span, .landingSeccion-3 span{
 	color: #ffbb00; 
 }
 
