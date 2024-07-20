@@ -1,40 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <!-- Head -->
+<!-- Head -->
   <head>
-    <!-- Metas & Title -->
+  <!-- Metas & Title -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>INTEGRAL|Software de Administración de Edificios y Condominios|Edificios y Comunidades Inteligentes|Smart Buildings and Condos</title>
-    <!-- GoogleFonts Font:Exo2 -->
+  <!-- GoogleFonts Font:Exo2 y Abel-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Bootstrap JavaScript -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Bootstrap Theme - Bootswatch -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrapUnitedTheme.min.css">
+  <!-- Bootstrap 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+  -->
+  <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-3.7.1.js"></script>
+  <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Archivo de Estilo Integral -->
+  <!-- Archivo de Estilo Integral -->
     <link rel="stylesheet" type="text/css" href="css/integralStyle.css">
   </head>
+<!-- Body -->
   <body>
-    <!-- Body -->
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Barra de Navegación -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="img-responsive" src="img/favicon.png" alt="Logo Software de Administración de Edificios y Condominios INTEGRAL" id="logoNavbar">
+          <img src="img/favicon.png" alt="Logo Software de Administración de Edificios y Condominios INTEGRAL" width="30" height="24" class="d-inline-block align-text-top">  <span>Integral</span>  
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarColor04">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link active" href="index.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
               Módulos y Funcionalidad
               </a>
               <ul class="dropdown-menu">
@@ -48,7 +54,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
               Planes
               </a>
               <ul class="dropdown-menu">
@@ -64,59 +70,45 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Nosotros</a>
             </li>
+          </ul>
+          <ul class="navbar-nav me-1 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
 
-    <!-- Banner Principal -->
-    <div class="jumbotron bannerPpal col-md-12 col-sm-3">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+  <!-- Banner Principal -->
+    <div class="bannerPpal clearfix">
+      <div class="container-fluid row mt-5 bannerPpal">
+        <div class="col">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="ADMINISTRACIÓN DE EDIFICIOS Y CONDOMINIOS">
-                <p class="leyendaBannerPpal exo-2-md_font">ADMINISTRACIÓN DE EDIFICIOS Y CONDOMINIOS</p>
+                <img src="img/BannerFaq.png" class="d-block w-100" alt="PREGUNTAS FRECUENTES">    
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="GESTIÓN CONTABLE Y FINANCIERA">
-                <p class="leyendaBannerPpal exo-2-md_font">GESTIÓN CONTABLE Y FINANCIERA</p>
+                <img src="img/BannerFinance.png" class="d-block w-100" alt="GESTIÓN CONTABLE Y FINANCIERA">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="GESTIÓN DE PERSONAL Y REMUNERACIONES">
-                <p class="leyendaBannerPpal exo-2-md_font">GESTIÓN DE PERSONAL Y REMUNERACIONES</p>
+                <img src="img/BannerRemunera.png" class="d-block w-100" alt="GESTIÓN DE PERSONAL Y REMUNERACIONES">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="GESTIÓN DE OPERACIONES">
-                <p class="leyendaBannerPpal exo-2-md_font">GESTIÓN DE OPERACIONES</p>
+                <img src="img/BannerOperacion.png" class="d-block w-100" alt="GESTIÓN DE OPERACIONES">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="GESTIÓN DE PROVEEDORES">
-                <p class="leyendaBannerPpal exo-2-md_font">GESTIÓN DE PROVEEDORES</p>
+                <img src="img/BannerProveedor.png" class="d-block w-100" alt="GESTIÓN DE PROVEEDORES">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="RED SOCIAL PRIVADA DE LA COMUNIDAD">
-                <p class="leyendaBannerPpal exo-2-md_font">RED SOCIAL PRIVADA DE LA COMUNIDAD</p>
+                <img src="img/BannerSocial.png" class="d-block w-100" alt="RED SOCIAL PRIVADA DE LA COMUNIDAD">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="MÓDULO EDUCATIVO">
-                <p class="leyendaBannerPpal exo-2-md_font">MÓDULO EDUCATIVO</p>
+                <img src="img/BannerEduca.png" class="d-block w-100" alt="HERRAMIENTAS EDUCATIVAS">
               </div>
               <div class="carousel-item">
-                <img src="img/itgrlogo_trnsp.png" class="d-block w-100" alt="AVANZADA TECNOLOGIA MODERNA E INTELIGENTE">
-                <p class="leyendaBannerPpal exo-2-md_font">AVANZADA TECNOLOGIA MODERNA E INTELIGENTE</p>
+                <img src="img/BannerTecno.png" class="d-block w-100" alt="AVANZADA TECNOLOGIA MODERNA E INTELIGENTE">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -130,14 +122,68 @@
           </div>
         </div>
       </div>
-
-      <!--
-      <h1 class="exo-2-gt_font">INTEGRAL</h1>
-      <h2 class="exo-2-md_font">Comunidades Inteligentes</h2>
-    -->
     </div>
 
-    
-    
+  <!-- Seccion-1: Cuerpo FAQ - Preguntas-->
+    <div class="faqSeccion-1 clearfix">
+      <div class="row mt-3">
+        <div class="container col">
+          <h1 class="exo-2-gt_font pt-3 ms-5">Tu preguntas... <span>INTEGRAL te responde!!</span></h1>
+        </div>
+        <div class="container col-md-10 mt-3 border">  
+          <h3 class="exo-2-md_font mt-3 pe-3"><span>1. Es posible pedir una copia de la información de la comunidad que se sube a la plataforma?</span></h3>
+          <p class="exo-2-gt_font mt-3 mb-1">SI es posible; en <span>INTEGRAL</span> el dueño de los datos es la propia comunidad. Es por esto que en cualquier momento de la relación contractual, el presidente del comité de adminitración podrá pedir una copia completa si desea contar con un respaldo personal.</p>
+        </div>
+        <div class="container col-md-10 mt-3 border">  
+          <h3 class="exo-2-md_font mt-3 pe-3"><span>2. Cómo se protege la información que se sube a la plataforma?</span></h3>
+          <p class="exo-2-gt_font mt-3 mb-1">En <span>INTEGRAL</span> somos concientes de la importancia de los datos de tu comunidad. Es por eso que tenemos estrictas políticas de seguridad de la información, diseñadas para proteger los tres pilares siguientes: INTEGRIDAD, DISPONIBILIDAD y CONFIDENCIALIDAD.</p>
+      </div>
+    </div>
+  
+  
+  <!-- Seccion-Footer: Pie de Página --> 
+    <div class="footerSection container-fluid h-100 p-2 bg-body-tertiary border mt-5">
+      <div class="row">
+        <div class="col-1 m-0 p-0"></div>
+        <div class="col-1 m-0 mt-3 p-0">
+          <p class="mb-0"><span>Contacto:</span></p>
+        </div>
+        <div class="col-3 m-0 mt-3 p-0">
+          <p class="m-0 p-0">Las Bellotas 199 Of.62, Providencia</p>
+          <p class="m-0 p-0">Santiago de Chile, Región Metropolitana</p>
+          <p class="m-0 p-0">contacto@integral.cl</p>
+          <p class="m-0 p-0">Fonos: +569 7139 5333 - +569 9441 9890</p>
+        </div>
+        <div class="col-1 m-0 mt-3 p-0">
+          <p class="m-0 p-0">Lunes a Viernes</p>
+          <p class="m-0 p-0">Sábados</p>
+          <p class="m-0 p-0">Domingos</p>
+        </div>
+        <div class="col-1 m-0 mt-3 p-0">
+          <p class="m-0 p-0">9:00 am - 7:00 pm</p>
+          <p class="m-0 p-0">10:00 am - 2:00 pm</p>
+          <p class="m-0 p-0">Cerrado</p>
+        </div>
+        <div class="container col-md-3 border">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.0349263658327!2d-70.6110308899418!3d-33.42233377328965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf68c9baabc5%3A0x70e7d7876029ee21!2sLas%20Bellotas%20199%2C%207510123%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1721106072023!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 m-0 p-0"></div>
+        <div class="col m-0 p-0">
+          <span>Créditos:</span> Este sitio utiliza imágenes diseñadas por terceros: <a class="mb-0" href="https://www.freepik.es/vector-gratis/vector-ilustracion-dibujos-animados-feliz-concepto-familia_3941660.htm#query=comunidad%20vecinos&position=8&from_view=keyword&track=ais_user&uuid=d2d157ea-e87a-496a-aee8-1a88696ac6de">Imagen de teravector</a> en Freepik
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+<!-- 
+    <div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+    <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+-->

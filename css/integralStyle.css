@@ -24,12 +24,7 @@
 }
 
 .bannerPpal {
-	background-color: #9EE070;
-}
-
-.leyendaBannerPpal {
-	color: #ffdd80;
-	text-align: center;
+	background-color: #a2cf62;
 }
 
 .landingSeccion-1 {
@@ -41,7 +36,8 @@
 	color: #777777;
 }
 
-.landingSeccion-1 span, .landingSeccion-2 span, .landingSeccion-3 span{
+.landingSeccion-1 span, .landingSeccion-2 span, .landingSeccion-3 span,
+.faqSeccion-1 span{
 	color: #ffbb00; 
 }
 
@@ -56,8 +52,14 @@
 	font-style: bold;
 }
 
+.rolComunidad {
+	min-height: 440px;
+}
 
-
+.faqSeccion-1 {
+	color: #777777;
+	text-align: left; 
+}
 
 #prueba {
 	color: red;
