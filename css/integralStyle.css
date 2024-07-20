@@ -52,8 +52,23 @@
 	font-style: bold;
 }
 
+.footerSection span{
+	font-weight: 700;
+	font-style: bold;
+	color: black; 
+}
+
+.creditos{
+	font-size: 7px;
+}
+
 .rolComunidad {
-	min-height: 440px;
+	min-height: 500px;
+}
+
+.rolComunidad img{
+	min-height: 200px;
+
 }
 
 .faqSeccion-1 {

@@ -140,4 +140,52 @@ new = gets.chomp
 array_entero.push(new)
 print array_entero
 
+productos = ['prod1', 'prod2', 'prod3', 'prod4']
+precios = [1000, 2000, 3000, 4000]
+
+puts 'Ingrese producto a consultar (prodx):'
+prod = gets.chomp
+indice = productos.index(prod)
+puts "El precio de #{prod} es: #{precios[indice]}"
+
+productos_hash = {'prod1'=>1000, 'prod2'=>2000, 'prod3'=>3000, 'prod4'=>4000}
+puts 'Ingrese nuevo producto a consultar (prodx):'
+prod = gets.chomp
+puts "El precio de #{prod} es: #{productos_hash[prod].to_s}"
+
+colors = {:red=>'ff0000', :green=>'00ff00', :blue=>'0000ff'}
+colors2 = {red: 'ff0000', green: '00ff00', blue: '0000ff'}
+
+print colors
+print colors2
+
+colors.each do |key, value|
+	puts "#{key} tiene valor en hexa #{value}"
+end
+
+hash = {}
+puts hash
+hash[:ele1]=1
+puts hash
+hash[:ele2]=2
+puts hash
+hash[:ele2]=3
+puts hash
+hash.delete(:ele2)
+puts hash
+
+colors3 = colors2.clone
+colors4 = colors2
+puts colors2
+puts colors3
+puts colors4
+
+colors3[:green]='verde'
+colors4[:blue]='azul'
+puts colors2
+puts colors3
+puts colors4
+
+
+
 
