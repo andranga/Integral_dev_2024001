@@ -40,3 +40,19 @@ order = array.sort_by do |item|
 	item	
 end
 print order
+
+nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia", "Ray"]
+
+a= nombres.select {|a| a.length>5}
+print 'Punto 1a', a
+
+b= nombres.map {|a| a.downcase}
+print 'Punto 1b', b
+
+c= nombres.select {|a| a[0]=='P'}
+print 'Punto 1c', c
+
+d= nombres.map {|a| a.gsub(/[aeiouAEIOU]/, 'a'=>4, 'e'=>3, 'i'=>1, 'o'=>'0', 'u'=>'√', 'A'=>4, 'E'=>3, 'I'=>1, 'O'=>'0', 'U'=>'√')}
+print 'Punto 1d', d
+
+

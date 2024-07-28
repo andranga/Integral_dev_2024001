@@ -1,0 +1,7 @@
+articulo1	1000
+articulo2	12000
+articulo3	3000
+articulo4	4000
+articulo5	5000
+articulo6	6000
+articulo6	6000

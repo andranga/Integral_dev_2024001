@@ -1,0 +1,14 @@
+<h1>Pages#about</h1>
+<p>Find me in app/views/pages/about.html.erb</p>
+
+<%= link_to 'Enlace a index este es con helper', pages_index_path %>
+
+<% 10.times do | i |  %>
+	<p> Hola itera <%= i %> , que tal </p>
+<% end  %>
+
+<%# Esta def se fue al controller // @products = ["Producto1", "Producto2", "Producto3", "Producto4"] %>
+<% @products.each_with_index do | prod, i |  %>
+	<p> <%= i %>. <%= prod %> </p>
+<% end  %>
+

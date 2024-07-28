@@ -1,0 +1,3 @@
+cucos 1000
+cocos 2000
+cucas 3000

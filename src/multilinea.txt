@@ -1,0 +1,20 @@
+prod_1 linea1
+prod_1 linea2
+prod_1 linea3
+prod_1 linea4
+good, bad, bad, bad, bad
+prod_2 linea1
+prod_2 linea2
+prod_2 linea3
+prod_2 linea4
+good, good, bad, bad, bad
+prod_3 linea1
+prod_3 linea2
+prod_3 linea3
+prod_3 linea4
+good, good, good, bad, bad
+prod_4 linea1
+prod_4 linea2
+prod_4 linea3
+prod_4 linea4
+good, good, good, good, bad
